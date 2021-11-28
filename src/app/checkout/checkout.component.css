@@ -1,0 +1,21 @@
+.card-img-top{
+    width: 150px;
+    height: 150px;
+}
+.table, td{
+    text-align: center; 
+    vertical-align: middle;
+}
+button{
+    margin: 40px;
+    
+}
+.row{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.result{
+    font-size: 1.5em;
+}

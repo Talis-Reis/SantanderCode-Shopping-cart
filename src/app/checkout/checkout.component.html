@@ -1,0 +1,33 @@
+<table class="table">
+  <thead class="thead-dark">
+    <tr> 
+      <th scope="col">Products</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of cartProducts">
+      <td>{{ product.title }}<br /><img class="card-img-top" src="../../../assets/img/Products/{{product.path}}.jpg" /></td>
+      <td>
+        <span class="card-text">{{(product.price * product.qtd) |  currency : 'BRL' }} </span>
+      </td>
+      <td>
+        <app-product-amount
+        #productAmount
+        [productAmount]="product"
+        (removeItem)="removeUnit($event)"
+        (addItem)="addUnit($event)">
+        </app-product-amount>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td class="result">Total: R$ {{totalToPay |  currency : 'BRL' }}</td>
+      <td class="result">Quantity: {{totalQuantity}}</td>
+    </tr>
+  </tbody>
+</table>
+<div class="row" [ngStyle]="{'display': display}">
+  <button routerLink="/shippingData" class="btn btn-primary btn-lg">Finalizar Compra</button>
+</div>

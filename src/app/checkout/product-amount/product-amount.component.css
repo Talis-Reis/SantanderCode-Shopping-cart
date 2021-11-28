@@ -1,0 +1,14 @@
+.changeQuantity{
+    background-color: tomato;
+    color: white;
+    font-size: 1.1em;
+    width: 50px;
+    height: 40px;
+    display: inline;
+    margin: 10px;
+    transition-duration: 0.2s;
+}
+.changeQuantity:hover {
+    background-color: #4CAF50;
+    border: 1px solid black;
+  }

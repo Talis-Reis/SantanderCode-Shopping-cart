@@ -25,3 +25,35 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Dependencies to run the project
+
+## SweetAlert2
+
+SweetAlert2 is a JavaScript library that helps us create alerts in our web apps.
+
+To install the library using npm:
+
+npm install sweetalert2
+
+## Bootstrap v4.1.3
+
+Bootstrap is a free and open source web framework capable of providing standards for HTML, CSS and JavaScript development.
+
+To install the library using npm:
+
+npm install bootstrap@4.1.3 jquery@3.3.1 popper.js@1.14.3 --save
+
+Edit the lines of the following file: angular.json
+
+"styles": [
+	"node_modules/bootstrap/dist/css/bootstrap.css",
+	"src/styles.css"
+],
+"scripts": [
+	"node_modules/jquery/dist/jquery.js",
+	"node_modules/popper.js/dist/umd/popper.js",
+	"node_modules/bootstrap/dist/js/bootstrap.js"
+]
+
+

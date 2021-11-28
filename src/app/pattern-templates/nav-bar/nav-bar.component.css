@@ -1,0 +1,29 @@
+#navbarNav{
+    background-color: #000000;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5em;
+}
+.navbar-nav{
+    margin-left: -250px;
+}
+.ftco-section{
+    background-color: #ffffff!important;
+} 
+
+.navbar{
+    background-color: #007bff!important;
+}
+.button-cart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    font-size: 1.3em;
+}
+.nav-link{
+    color: white!important;
+}

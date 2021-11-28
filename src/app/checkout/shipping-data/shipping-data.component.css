@@ -1,0 +1,15 @@
+form{
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.message-invalid {
+    color: red;
+    display: block;
+    font-size: .8em;
+    font-style: italic;
+  }

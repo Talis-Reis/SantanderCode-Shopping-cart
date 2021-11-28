@@ -1,0 +1,36 @@
+.cart-img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-right: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 6vh;
+    font-size: 1.2em;
+    padding: 10px ;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px black;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: tomato;
+    box-shadow: 10px 5px 5px black;
+}
+.btn:hover {
+    background-color: #4CAF50;
+    border: 1px solid black;
+  }
+.qtd-cart{
+    margin-right: 15px;
+    width: 25px;
+    font-size: 0.8em;
+    border-radius: 80%;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4px;
+}
